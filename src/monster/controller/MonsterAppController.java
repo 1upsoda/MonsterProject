@@ -19,6 +19,7 @@ public class MonsterAppController
 		myMonster = new MarshmellowMonster("Ben", 2.0, 5.0, 2, 1, 3, true);
 		otherMonster = new MarshmellowMonster("Scout", 0.023, .1, 4, 0, 0, false);
 		
+		
 	}
 	public MarshmellowMonster getMyMonster()
 	{
@@ -32,6 +33,8 @@ public class MonsterAppController
 	public void start()
 	{
 		myAppView.displayInformation();
-		
+		System.out.println();
 	}
+	
+	
 }
